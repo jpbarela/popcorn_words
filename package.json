@@ -1,0 +1,26 @@
+{
+  "name": "popcorn_words",
+  "version": "0.1.0",
+  "description": "A quick app for word list quizes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --use-strict server.js",
+    "test": "make test"
+  },
+  "author": "JP Barela",
+  "license": "MIT",
+  "repository": "https://github.com/jpbarela/PopcornWords.git",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "cucumber": "^0.10.1",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-react": "^4.3.0",
+    "jasmine-es6": "^0.1.8",
+    "zombie": "^4.2.1"
+  }
+}
