@@ -5,6 +5,11 @@ module.exports = function wordListSteps() {
 
   this.Then(/^I see a random word list$/, function seeRandomList() {
     this.browser.assert.text('h1', 'Word Quiz');
-    this.browser.assert.elements('#quiz .row', 10);
+    this.browser.assert.elements('[data-word]', 10);
+  });
+
+  this.Then(/^I see a responsive layout$/, function responsiveLayout() {
+    this.browser.assert.elements('.row', 5);
+    this.browser.assert.elements('.large-6', 10);
   });
 };

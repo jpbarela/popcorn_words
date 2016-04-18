@@ -6,3 +6,7 @@ Feature:
   Scenario:
     When I visit the page
     Then I see a random word list
+
+  Scenario:
+    When I visit the page
+    Then I see a responsive layout
