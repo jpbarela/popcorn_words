@@ -1,6 +1,9 @@
 run:
 	npm start
 
+dev:
+	./node_modules/.bin/nodemon --use-strict server.js
+
 feature:
 	./node_modules/.bin/cucumber.js
 

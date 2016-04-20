@@ -2,13 +2,16 @@ doctype html
 html
 	head
 		title Word Quizes
-		link(rel="stylesheet", href="http://cdn.jsdelivr.net/zurb/foundation-apps-1.2.0.min.css")
+		link(rel="stylesheet", href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css")
 		link(rel="stylesheet", href="pop-corn.css")
-		script(src="http://cdn.jsdelivr.net/zurb/foundation-apps-1.2.0.min.js")
+		script(src="https://code.jquery.com/jquery-2.2.3.min.js")
+		script(src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js")
 	body
 		h1 Word Quiz
 		#quiz
-			- i = 0
-			each item in quiz
+			- for (var i = 0; i<5; i++)
 				.row
-					=item
+					.large-6.columns(data-word=true)
+						= quiz[2*i]
+					.large-6.columns(data-word=true)
+						= quiz[2*i+1]
