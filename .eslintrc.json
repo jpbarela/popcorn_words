@@ -10,6 +10,6 @@
   "rules": {
     "new-cap": [2, {"capIsNewExceptions": ["When", "Then"]}],
     "no-console": 0,
-    "strict": [0, "safe"]
+    "strict": 0
   }
 }
