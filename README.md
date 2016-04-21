@@ -1,4 +1,5 @@
 # PopcornWords
+[![Code Climate](https://codeclimate.com/github/jpbarela/PopcornWords/badges/gpa.svg)](https://codeclimate.com/github/jpbarela/PopcornWords)
 
 PopcordWords provides a quick list from a words files for vocabulary testing.
 
