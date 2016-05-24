@@ -6,12 +6,13 @@ html
 		link(rel="stylesheet", href="pop-corn.css")
 		script(src="https://code.jquery.com/jquery-2.2.3.min.js")
 		script(src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js")
+		meta(name="viewport", content='width=device-width, initial-scale=1.0')
 	body
 		h1 Word Quiz
 		#quiz
 			- for (var i = 0; i<5; i++)
 				.row
-					.large-6.columns(data-word=true)
+					.small-12.medium-6.columns(data-word=true)
 						= quiz[2*i]
-					.large-6.columns(data-word=true)
+					.small-12.medium-6.columns(data-word=true)
 						= quiz[2*i+1]
