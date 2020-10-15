@@ -1,5 +1,5 @@
-const list = require('./models/randomWords');
 const express = require('express');
+const list = require('./models/randomWords');
 
 const app = express();
 

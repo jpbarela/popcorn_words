@@ -5,7 +5,7 @@ function World() {
 
   this.server = process.env.HOST || 'http://localhost:5000';
 
-  this.visit = path => this.browser.visit(this.server + path);
+  this.visit = (path) => this.browser.visit(this.server + path);
 }
 
 module.exports = function world() {
