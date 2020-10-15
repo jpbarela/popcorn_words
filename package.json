@@ -12,11 +12,11 @@
   "repository": "https://github.com/jpbarela/PopcornWords.git",
   "dependencies": {
     "express": "^4.13.4",
-    "jade": "^1.11.0"
+    "pug": "^3.0.0"
   },
   "devDependencies": {
     "cucumber": "^0.10.1",
-    "eslint": "^2.7.0",
+    "eslint": ">=4.18.2",
     "eslint-config-airbnb": "^7.0.0",
     "eslint-plugin-jsx-a11y": "^0.6.2",
     "eslint-plugin-react": "^4.3.0",
