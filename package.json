@@ -12,16 +12,23 @@
   "repository": "https://github.com/jpbarela/PopcornWords.git",
   "dependencies": {
     "express": "^4.13.4",
-    "jade": "^1.11.0"
+    "pug": "^3.0.0",
+    "zombie": "^6.1.4"
   },
   "devDependencies": {
+    "ava": "^3.13.0",
     "cucumber": "^0.10.1",
-    "eslint": "^2.7.0",
-    "eslint-config-airbnb": "^7.0.0",
-    "eslint-plugin-jsx-a11y": "^0.6.2",
-    "eslint-plugin-react": "^4.3.0",
-    "jasmine-es6": "^0.1.8",
-    "nodemon": "^1.9.1",
-    "zombie": "^4.2.1"
+    "eslint": ">=4.18.2",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "nodemon": "^1.9.1"
+  },
+  "ava": {
+    "files": [
+      "spec/**/*"
+    ]
   }
 }

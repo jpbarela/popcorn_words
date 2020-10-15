@@ -13,4 +13,4 @@ lint:
 test: lint unit feature
 
 unit:
-	./node_modules/.bin/jasmine
+	./node_modules/.bin/ava

@@ -1,5 +1,5 @@
-const list = require('./models/randomWords');
 const express = require('express');
+const list = require('./models/randomWords');
 
 const app = express();
 
@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.use(express.static(`${__dirname}/public`));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 function start(config) {
   app.listen(config.port);
